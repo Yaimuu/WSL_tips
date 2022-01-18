@@ -126,7 +126,7 @@ generateResolvConf = false
 sudo nano /etc/resolv.conf
 ```
 ``` sh
-nameserver <corporate adress>
+nameserver <VPN DNS adress>
 ```
 4. Set your VPN adapter (if you have Cisco AnyConnect) **open a admin PowerShell**
 
