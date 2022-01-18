@@ -198,3 +198,8 @@ bash
 # OR
 source ~/.bashrc
 ```
+### Useful documentation
+
+[WSL2 Hacks](https://github.com/shayne/wsl2-hacks)
+
+[Dev Containers](https://code.visualstudio.com/docs/remote/containers)
