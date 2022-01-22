@@ -55,6 +55,7 @@ To ensure having no problem afterwards, open ubuntu as administrator.
 To prevent any mismatch between Linux and Windows depedencies, add thes lines in your ```/etc/wsl.conf``` (if it doesn't exist, create it) :
 
 ```sh
+[interop]
 enabled = false # enable launch of Windows binaries; default is true
 appendWindowsPath = false # append Windows path to $PATH variable; default is true
 ```
