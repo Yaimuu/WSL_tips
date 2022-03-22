@@ -91,6 +91,13 @@ To run graphical commands as ```gedit```, you have to install an external tool f
 
 [XLaunch](https://sourceforge.net/projects/vcxsrv/).
 
+And add the following commands to your ```.bashrc``` file :
+
+```sh
+export DISPLAY=$(127.0.0.1 | awk '{print $3}'):0
+export LIBGL_ALWAYS_INDIRECT=1
+```
+
 Everytime you want to use your WSL, you should also launch this software and follow these screenshots :
 
 **SCREENSHOTS OF THE APP**
