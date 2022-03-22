@@ -94,7 +94,7 @@ To run graphical commands as ```gedit```, you have to install an external tool f
 And add the following commands to your ```.bashrc``` file :
 
 ```sh
-export DISPLAY=$(127.0.0.1 | awk '{print $3}'):0
+export DISPLAY=$(awk '/nameserver / {print $2; exit}' /etc/resolv.conf 2>/dev/null):0
 export LIBGL_ALWAYS_INDIRECT=1
 ```
 
