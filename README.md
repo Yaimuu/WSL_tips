@@ -87,7 +87,9 @@ Then, restart your WSL.
 
 > #### GUI for WSL
 
-To run ```az acr``` commands afterwards, you have to log in thanks to a web browser. To do so, you need to install an external software for Windows : [XLaunch](https://sourceforge.net/projects/vcxsrv/).
+To run graphical commands as ```gedit```, you have to install an external tool for Windows : 
+
+[XLaunch](https://sourceforge.net/projects/vcxsrv/).
 
 Everytime you want to use your WSL, you should also launch this software and follow these screenshots :
 
